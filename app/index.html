@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A fast, dependency-free client for make.fun bounties: the live board, bounty pages, leaderboards and public profiles, straight from make.fun's public API.">
+<title>make.fun bounties</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<header>
+  <a class="brand" href="#/">make.fun <span>bounties</span></a>
+  <nav aria-label="Main">
+    <a href="#/">Board</a>
+    <a href="#/rankings">Rankings</a>
+    <a href="https://make.fun" rel="noopener">make.fun ↗</a>
+  </nav>
+</header>
+<main id="app" aria-live="polite"></main>
+<footer>
+  <p>Unofficial client. Data is live from <a href="https://make.fun/api/openapi.json">make.fun's public API</a>; rewards are paid in USDC on Solana by make.fun.</p>
+</footer>
+</body>
+</html>
